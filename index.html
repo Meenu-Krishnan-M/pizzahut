@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind</title>
+  <!-- tailwind css -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!--navbar  -->
+  <div
+    class="w-full md:h-screen h-96 bg-[url('https://img.freepik.com/free-photo/delicious-pizza-studio_23-2151846558.jpg')] bg-cover bg-center  py-5 relative">
+
+    <nav class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto md:p-6 ">
+      <img class="md:w-20 w-10  mx-auto cursor-pointer"
+        src="https://upload.wikimedia.org/wikipedia/sco/thumb/d/d2/Pizza_Hut_logo.svg/1088px-Pizza_Hut_logo.svg.png"
+        alt="no image">
+      <ul class="md:flex-1  text-center">
+        <li class="list-none inline-block text-xl"><a class="text-white md:px-6 px-4 " href="">Home</a></li>
+        <li class="list-none inline-block text-xl"><a class="text-white md:px-6 px-4" href="">Menu</a></li>
+        <li class="list-none inline-block text-xl"><a class="text-white md:px-6 px-4" href="">Deals</a></li>
+        <li class="list-none inline-block text-xl"><a class="text-white md:px-6 px-4" href="">Contacts</a></li>
+      </ul>
+
+    </nav>
+
+    <div class=" w-full md:pt-60 pt-40 ">
+      <h1 class="text-white md:text-4xl text-2xl md:mx-20 mx-10">Pizza! Delivery in 20 mins!</h1>
+      <!-- <p class="text-red-600 text-2xl mt-4 p-4 "> Delivery in 20 mins!</p> -->
+    </div>
+    <div class="w-full mt-10  md:mx-20 mx-5">
+      <a href="#"
+        class="bg-red-600 py-3 px-8 rounded-3xl font-medium md:mx-4 hover:bg-transparent hover:border hover:border-red-600 duration-300">Order
+        Now</a>
+      <a href="#" class="py-3 px-6  rounded-3xl border border-red-600 text-white ">Download App <span> &#8595;
+        </span></a>
+    </div>
+
+  </div>
+  <!-- home -->
+  <div
+    class="w-full flex justify-center items-center flex-col bg-[url('https://images.unsplash.com/photo-1533628635777-112b2239b1c7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2hpdGUlMjB0ZXh0dXJlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D')] bg-cover">
+    <h1 class="text-4xl mt-20">Our Deals</h1>
+    <div>
+      <P class="mt-10 ml-5">Check out the latest meal deals available from Pizza Hut</P>
+    </div>
+
+    <div class="md:mt-10 mt-10 mb-4 md:px-20 md:grid grid-cols-3 w-full ">
+      <div class="p-8">
+        <img
+          src="https://api.pizzahut.io/v1/content/en-in/in-1/images/deal/momo-mia-meal-for-1-veg.bfb5f5e59e080933cfaf8f1adcc3b194.1.jpg?width=251"
+          alt="no image" class="w-full max-h-56 ">
+        <h1 class="text-2xl text-center mb-2">Momo Mia! Meal For 1 Veg</h1>
+        <p class="text-justify mt-4">Enjoy a combo of 1 Veg Momo Mia! personal pizza with 1 Pepsi PET bottle.</p>
+      </div>
+      <div class="p-8">
+
+        <img
+          src="https://api.pizzahut.io/v1/content/en-in/in-1/images/deal/3-course-meal-for-2.c126dc8688a390c643723346fa22269f.1.jpg?width=251"
+          alt="no image" class="w-full max-h-56">
+        <h1 class="text-2xl text-center mb-2">Melts 3 Course meal for 2</h1>
+        <p class="text-center mt-4">The perfect "We Time" meal. Choose any 2 Melts flavour & enjoy with 1 Exotica Veggie
+          Garlic Bread & 1 Pepsi PET</p>
+      </div>
+      <div class="p-8">
+        <img
+          src="https://api.pizzahut.io/v1/content/en-in/in-1/images/deal/my-box-pasta1.314a44269cb0dc883c29f65fbbb3a2f5.1.jpg"
+          alt="no image" class="w-full max-h-56">
+        <h1 class="text-2xl text-center mb-2">MY BOX PASTA starting @249</h1>
+        <p class="text-center mt-4">Meal for 1: 1 Pasta, 2 Pc Plain Garlic Bread & 1 Pepsi Pet Bottle</p>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Section -->
+  <footer class="bg-black text-white p-8">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+      <!-- Order Now Section -->
+      <div>
+        <h4 class="font-semibold mb-4">Order Now</h4>
+        <ul>
+          <li><a href="#" class="hover:text-gray-400">Deals</a></li>
+          <li><a href="#" class="hover:text-gray-400">Pizza</a></li>
+        </ul>
+      </div>
+
+      <!-- About Us Section -->
+      <div>
+        <h4 class="font-semibold mb-4">About Us</h4>
+        <ul>
+          <li><a href="#" class="hover:text-gray-400">About Us</a></li>
+          <li><a href="#" class="hover:text-gray-400">Contactless Delivery</a></li>
+          <li><a href="#" class="hover:text-gray-400">Nutrition</a></li>
+        </ul>
+      </div>
+
+      <!-- Our Policies Section -->
+      <div>
+        <h4 class="font-semibold mb-4">Our Policies</h4>
+        <ul>
+          <li><a href="#" class="hover:text-gray-400">Terms & Conditions</a></li>
+          <li><a href="#" class="hover:text-gray-400">FAQs & Help</a></li>
+        </ul>
+      </div>
+
+      <!-- Visit Pizza Hut Section -->
+      <div>
+        <h4 class="font-semibold mb-4">Visit Pizza Hut</h4>
+        <ul>
+          <li><a href="#" class="hover:text-gray-400">Locate a Store</a></li>
+          <li><a href="#" class="hover:text-gray-400">Global Blog</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Mobile Apps Section -->
+    <div class="flex justify-center mt-8 gap-2">
+      <a href="#">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/135px-Download_on_the_App_Store_Badge.svg.png?20170219160111"
+          alt="App Store" class="h-10 ">
+      </a>
+      <a href="#">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play"
+          class="h-10">
+      </a>
+    </div>
+
+    <!-- Feedback Section -->
+    <div class="text-center mt-8">
+      <a href="#" class="bg-gray-800 py-2 px-4 text-white rounded-lg hover:bg-gray-700">Give Feedback</a>
+      <p class="mt-4 text-gray-400">Order a delicious pizza on the go, anywhere, anytime. Pizza Hut is happy to assist
+        you with your home delivery.</p>
+    </div>
+
+    <!-- Social Links Section -->
+    <div class="flex justify-center space-x-6 mt-8">
+      <a href="#"><i class="fa-brands fa-facebook fa-xl"></i></a>
+      <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"
+          class="h-6"></a>
+      <a href="#"><i class="fa-brands fa-youtube fa-xl"></i></a>
+    </div>
+
+    <!-- Footer Bottom Section -->
+    <div class="text-center text-gray-500 mt-8">
+      <p>&copy; 2024 Pizza Hut India. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
